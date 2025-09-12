@@ -16,10 +16,10 @@ class MainActivity3 : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main3)
 
-        val edETNumber1:EditText=findViewById(R.id.ETNumber1)
-        val edETNumber2:EditText=findViewById(R.id.ETNumber2)
-        val ETResultado: TextView=findViewById(R.id.ETResultado)
-        val btn_calcular:Button=findViewById(R.id.btnCalcular)
+        val edETNumber1:EditText=findViewById(R.id.et_number1)
+        val edETNumber2:EditText=findViewById(R.id.et_number2)
+        val ETResultado: TextView=findViewById(R.id.et_resultado)
+        val btn_calcular:Button=findViewById(R.id.btn_calcular)
 
 
         btn_calcular.setOnClickListener{
