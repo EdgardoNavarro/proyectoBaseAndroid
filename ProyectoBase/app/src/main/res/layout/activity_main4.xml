@@ -8,6 +8,7 @@
     tools:context=".MainActivity4">
 
     <ListView
+        android:id="@+id/lista_series"
         android:layout_width="248dp"
         android:layout_height="347dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,14 +20,13 @@
 
     <Spinner
         android:id="@+id/sp_mat"
-        android:layout_width="230dp"
-        android:layout_height="220dp"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.076" />
+        app:layout_constraintVertical_bias="0.278" />
 
     <Button
         android:id="@+id/btn_2"
@@ -39,4 +39,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.427" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="80dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
