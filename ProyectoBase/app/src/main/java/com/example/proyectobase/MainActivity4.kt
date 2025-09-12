@@ -52,6 +52,9 @@ class MainActivity4 : AppCompatActivity() {
 
         )
 
+
+
+
         val adaptador_list = ArrayAdapter(this, android.R.layout.simple_list_item_1
         , opcionesListView)
         btn_2.setOnClickListener{
